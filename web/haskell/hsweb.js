@@ -278,7 +278,7 @@ function n_choice(nodes){
         n_action_down = undefined;
         n_action_ret = undefined;
         n_focused = undefined;
-        n_locked = true;
+        n_locked = false;
       }
     };
     first = false;
