@@ -20,3 +20,5 @@ the web idea, or do it in Emacs, etc. The demo implementation I put in
 web/haskell/ is just that, a demo. See video here:
 http://www.youtube.com/watch?v=v2ypDcUM06U
 
+UPDATE: Looks like only Chrome likes the web/haskell
+implementation. Doesn't matter much, but thought I'd mention.
