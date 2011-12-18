@@ -1,0 +1,113 @@
+/* General element styles */
+body {
+  margin:0;
+  padding:1em;
+  background: #3f3f3f;
+  font-family: "ubuntu mono","dejavu sans mono",monospace;
+  color: #dcdccc;
+}
+input[type=text],textarea {
+  background: #4f4f4f;
+  border: 0;
+  color: #dcdccc;
+  font-family: "ubuntu mono","dejavu sans mono",monospace;
+  width: 20em;
+}
+/* Node-type specific styles */
+.module {
+}
+.module_exports_optional {
+  margin-left: 0.5em;
+}
+.paren {
+  color: #777;
+}
+/* Generic node styles */
+.n_empty {
+  background: #333;
+  padding: 0 0.5em;
+  color: #999;
+  cursor: text
+}
+.n_empty:hover {
+  background: #444;
+  color: #aa;
+}
+.n_syntax {
+  color: #f0dfaf;
+  cursor: default;
+}
+.n_optional.n_disabled {
+  opacity: 0.7;
+  font-size: 0.7em;
+}
+.n_optional.n_disabled * {
+  color: #888;
+}
+.n_optional.n_enabled {
+}
+.n_button {
+  cursor: pointer;
+}
+.n_input_invalid {
+  border: 2px solid #cc9393;
+  border-radius: 2px;
+}
+.n_decl { 
+}
+.n_add_button {
+  font-size: 0.7em;
+  padding-right: 0.5em;
+}
+.n_comma {
+  font-size: 0.9em;
+  color: #888;
+  padding-right: 0.5em;
+}
+.n_decls {
+  margin-top: 0.5em;
+  border-top: 2px solid #444;
+  padding-top: 0.5em;
+}
+.optional_import {
+  display: block;
+}
+.n_optional_button {
+  padding-right: 0.5em;
+}
+.n_choice {
+  list-style-type: none;
+  padding-left: 0;
+}
+.n_choice_item {
+  background: #444;
+}
+.n_choice_item.n_current {
+  background: #555;
+}
+.n_choice_item * {
+  color: #7f9f7f;
+  cursor: default;
+}
+.n_decl {
+  display: block;
+}
+.n_decl + .n_decl {
+  margin-top: 1em;
+}
+.constructor_name {
+  margin-right: 0.5em;
+  color: #8CD0D3;
+}
+.n_optional .n_decl {
+  display: inline;
+  margin-top: 0;
+}
+.class-where > .n_sequence > .n_defs > .n_def {
+  display: block;
+  margin-left: 1em;
+}
+.n_focused {
+  border: 2px solid #555;
+  padding: 0.1em 0.3em;
+}
