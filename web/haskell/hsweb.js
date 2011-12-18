@@ -222,8 +222,6 @@ function n_decls(config){
   var add_decl = function(start){
     var newnode = make_child();
     decls.append(newnode);
-    n_focused = newnode;
-    begin_next_node();
   };
   btn.n_click(add_decl);
   decls[0].n_add_decl = add_decl;
@@ -259,7 +257,7 @@ function n_choice(nodes){
       if(n_focused.prev().length) {
         n_focused.removeClass('n_current');
         n_focused.prev().addClass('n_current');
-        n_focused = choice.prev();
+        n_focused = n_focused.prev();
       }
     };
     n_action_down = function(){
